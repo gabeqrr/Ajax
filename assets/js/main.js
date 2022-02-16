@@ -21,7 +21,7 @@
 //       if(response.status !== 200) throw new Error('Erro!!!');
 //       return response.text();
 //     })
-//     .then(html => carregaResultado(html))
+//     .then(html => loadResult(html))
 //     .catch(e => console.log(e))
 //    }
 
@@ -34,7 +34,6 @@ document.addEventListener('click', (e) => {
     loadPage(el);
   }
 });
-
 
 // Async/await with Fetch
 async function loadPage(el) {
@@ -56,3 +55,35 @@ function loadResult(response) {
   result.innerHTML = response;
 }
 
+// ===== consuming JSON data =====
+
+// fetch("people.json")
+//   .then(response => response.json())
+//   .then(json => showOnPage(json));
+
+// Axios
+axios('people.json').then((response) => showOnPage(response.data));
+
+function showOnPage(json) {
+  const table = document.createElement('table');
+  for (let people of json) {
+    const tr = document.createElement('tr');
+
+    let td = document.createElement('td');
+    td.innerHTML = people.name;
+    tr.appendChild(td);
+
+    td = document.createElement('td');
+    td.innerHTML = people.age;
+    tr.appendChild(td);
+
+    td = document.createElement('td');
+    td.innerHTML = people.wage;
+    tr.appendChild(td);
+
+    table.appendChild(tr);
+  }
+
+  const result = document.querySelector('.jsonresult');
+  result.appendChild(table);
+}

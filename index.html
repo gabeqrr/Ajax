@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Model</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Model</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+  <body>
+    <section class="container">
+      <h1>Hello World!</h1>
+      <a href="page1.html">Page 1</a>
+      <a href="page2.html">Page 2</a>
+      <a href="page3.html">Page 3</a>
 
-<body>
+      <h1>Result:</h1>
+      <div class="result"></div>
 
-  <section class="container">
-    <h1>Hello World!</h1>
-    <a href="page1.html">Page 1</a>
-    <a href="page2.html">Page 2</a>
-    <a href="page3.html">Page 3</a>
+      <hr>
 
-    <div class="result"></div>
-  </section>
+      <h1>JSON result:</h1>
+      <div class="jsonresult"></div>
+    </section>
 
-  <script src="./assets/js/main.js"></script>
-</body>
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>

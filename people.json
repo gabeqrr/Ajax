@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Miguel",
+    "email": "miguel@email.com.br",
+    "wage": 27211,
+    "state": "MG",
+    "company": "Facebook",
+    "age": 34,
+    "gender": "",
+    "cpf": "362.418.524-18"
+  },
+  {
+    "name": "Sophia",
+    "email": "sophia@company.com.br",
+    "wage": 6971,
+    "state": "DF",
+    "company": "Plastic Co.",
+    "age": 25,
+    "gender": "F",
+    "cpf": "742.316.671-52"
+  },
+  {
+    "name": "Davi",
+    "email": "davi@hotmail.com",
+    "wage": 10465,
+    "state": "SC",
+    "company": "Facebook",
+    "age": 51,
+    "gender": "",
+    "cpf": "725.732.024-10"
+  },
+  {
+    "name": "Alice",
+    "email": "alice@company.com.br",
+    "wage": 39010,
+    "state": "AL",
+    "company": "GGTT",
+    "age": 46,
+    "gender": "",
+    "cpf": "188.944.026-49"
+  },
+  {
+    "name": "Arthur",
+    "email": "arthur@email.com.br",
+    "wage": 8726,
+    "state": "PE",
+    "company": "Governo Federal",
+    "age": 21,
+    "gender": "",
+    "cpf": "432.594.262-99"
+  },
+  {
+    "name": "Julia",
+    "email": "julia@email.com.br",
+    "wage": 24250,
+    "state": "RO",
+    "company": "Uber",
+    "age": 42,
+    "gender": "F",
+    "cpf": "475.250.344-19"
+  },
+  {
+    "name": "Pedro",
+    "email": "pedro@uol.com.br",
+    "wage": 8679,
+    "state": "DF",
+    "company": "Facebook",
+    "age": 43,
+    "gender": "M",
+    "cpf": "637.637.477-88"
+  },
+  {
+    "name": "Isabella",
+    "email": "isabella@uol.com.br",
+    "wage": 37303,
+    "state": "RO",
+    "company": "Enum G.",
+    "age": 59,
+    "gender": "F",
+    "cpf": "787.264.677-39"
+  },
+  {
+    "name": "Gabriel",
+    "email": "gabriel@outlook.com",
+    "wage": 32446,
+    "state": "AM",
+    "company": "Facebook",
+    "age": 44,
+    "gender": "",
+    "cpf": "868.492.285-95"
+  },
+  {
+    "name": "Manuela",
+    "email": "manuela@company.com.br",
+    "wage": 3898,
+    "state": "PA",
+    "company": "For Men",
+    "age": 28,
+    "gender": "F",
+    "cpf": "576.014.456-15"
+  },
+  {
+    "name": "Bernardo",
+    "email": "bernardo@company.com.br",
+    "wage": 19380,
+    "state": "PA",
+    "company": "Plastic Co.",
+    "age": 46,
+    "gender": "M",
+    "cpf": "275.350.246-37"
+  }
+]
